@@ -5,7 +5,7 @@ const deps = require("./package.json").dependencies;
 
 module.exports = (_, argv) => ({
   output: {
-    publicPath: argv.mode === "production" ? "/" : "https://countermf.netlify.app/",
+    publicPath: argv.mode === "production" ? "https://countermf-74oh.vercel.app/" : "http://localhost:4000/",
   },
 
   resolve: {
